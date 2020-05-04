@@ -4,18 +4,18 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     line-height: 1.5em;
 }
-.site_wrap{
-    background-color:wheat;
-    height:100vh;
+.site_wrap{    
+    justify-content: space-evenly;
+
     display:grid;
     grid-template-columns: 
-    1fr 
-    repeat(4,minmax(0,272px))
+    1fr
+    repeat(4,minmax(0,320px))
     1fr
     ;
-    grid-gap:1px;
+    grid-gap:3px;
     grid-template-rows: 
-    40px
+    70px
     740px
     740px
     740px
@@ -24,8 +24,10 @@ body{
     740px
     740px
     740px
+    200px
     740px
-    1fr
+    740px
+    
     ;
     grid-template-areas: 
     "intro intro intro intro intro intro"
@@ -37,12 +39,21 @@ body{
     "NVMe_M2 NVMe_M2 NVMe_M2 NVMe_M2 NVMe_M2 NVMe_M2"
     "CORSAIR_VENGEANCE CORSAIR_VENGEANCE CORSAIR_VENGEANCE CORSAIR_VENGEANCE CORSAIR_VENGEANCE CORSAIR_VENGEANCE"
     "CORSAIR_VS550 CORSAIR_VS550 CORSAIR_VS550 CORSAIR_VS550 CORSAIR_VS550 CORSAIR_VS550"
+    "LOGO LOGO LOGO LOGO LOGO LOGO"
 
 }
 
 .intro{
-    background-color:wheat;
+    background-color:black;
     grid-area:intro;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+.intro .cart1{
+    width: 45
+    ;
 }
 
 .GAMING_PC{
@@ -114,12 +125,15 @@ body{
     width: 713;
 }
 
-.CORSAIR_VS550{
-    background-color:black;
-    grid-area:CORSAIR_VS550;
+.LOGO{
+    background-color:white;
+    grid-area:LOGO;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
 }
-.AMD_RYZEN_5 .img3{
-    width: 853;
+.LOGO .logo{
+    width: 1900;
 }
 
 
