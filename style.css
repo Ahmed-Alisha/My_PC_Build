@@ -1,0 +1,132 @@
+body{
+    margin:0;
+    padding:0;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5em;
+}
+.site_wrap{
+    background-color:wheat;
+    height:100vh;
+    display:grid;
+    grid-template-columns: 
+    1fr 
+    repeat(4,minmax(0,272px))
+    1fr
+    ;
+    grid-gap:1px;
+    grid-template-rows: 
+    40px
+    740px
+    740px
+    740px
+    740px
+    740px
+    740px
+    740px
+    740px
+    740px
+    1fr
+    ;
+    grid-template-areas: 
+    "intro intro intro intro intro intro"
+    "GAMING_PC GAMING_PC GAMING_PC GAMING_PC GAMING_PC GAMING_PC"
+    "GAMES GAMES GAMES GAMES GAMES GAMES"
+    "AMD_RYZEN_5 AMD_RYZEN_5 AMD_RYZEN_5 AMD_RYZEN_5 AMD_RYZEN_5 AMD_RYZEN_5"
+    "NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA NVIDIA"
+    "MSI_B450 MSI_B450 MSI_B450 MSI_B450 MSI_B450 MSI_B450"
+    "NVMe_M2 NVMe_M2 NVMe_M2 NVMe_M2 NVMe_M2 NVMe_M2"
+    "CORSAIR_VENGEANCE CORSAIR_VENGEANCE CORSAIR_VENGEANCE CORSAIR_VENGEANCE CORSAIR_VENGEANCE CORSAIR_VENGEANCE"
+    "CORSAIR_VS550 CORSAIR_VS550 CORSAIR_VS550 CORSAIR_VS550 CORSAIR_VS550 CORSAIR_VS550"
+
+}
+
+.intro{
+    background-color:wheat;
+    grid-area:intro;
+}
+
+.GAMING_PC{
+    background-color:black;
+    grid-area:GAMING_PC;
+}
+
+.GAMES{
+    background-color:black;
+    grid-area:GAMES;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 120;
+    
+}
+.GAMES .img2{
+    width: 853;
+}
+.GAMES .img3{
+    width: 853;
+}
+
+.AMD_RYZEN_5{
+    background-color:black;
+    grid-area:AMD_RYZEN_5;
+}
+.AMD_RYZEN_5 .img4{
+    width: 763;
+}
+
+.NVIDIA{
+    background-color:black;
+    grid-area:NVIDIA;
+}
+.NVIDIA .img5{
+    width: 897;
+}
+
+.MSI_B450{
+    background-color:black;
+    grid-area:MSI_B450;
+}
+.MSI_B450 .img6{
+    width: 874;
+}
+
+.NVMe_M2{
+    background-color:black;
+    grid-area:NVMe_M2;
+}
+.NVMe_M2 .img7{
+    width: 1035;
+}
+
+.CORSAIR_VENGEANCE{
+    background-color:black;
+    grid-area:CORSAIR_VENGEANCE;
+}
+.CORSAIR_VENGEANCE .img8{
+    width: 681;
+}
+
+.CORSAIR_VS550{
+    background-color:black;
+    grid-area:CORSAIR_VS550;
+}
+.CORSAIR_VS550 .img9{
+    width: 713;
+}
+
+.CORSAIR_VS550{
+    background-color:black;
+    grid-area:CORSAIR_VS550;
+}
+.AMD_RYZEN_5 .img3{
+    width: 853;
+}
+
+
+.CORSAIR_VS550{
+    background-color:black;
+    grid-area:CORSAIR_VS550;
+}
+.AMD_RYZEN_5 .img3{
+    width: 853;
+}
