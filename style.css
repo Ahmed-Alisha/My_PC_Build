@@ -15,9 +15,9 @@ body{
     ;
     grid-gap:3px;
     grid-template-rows: 
-    70px
-    740vw
-    740px
+    1fr
+    1fr
+    1fr
     740px
     740px
     740px
@@ -67,7 +67,7 @@ body{
     width: 50vw;
 }
 .GAMING_PC .img1_1{
-    width: 40vw;
+    width: 50vw;
 }
 
 .GAMES{
@@ -85,10 +85,10 @@ h1 {
     color: white;
   }
 .GAMES .img2{
-    width: 853;
+    width: 30%;
 }
 .GAMES .img3{
-    width: 853;
+    width: 30%;
 }
 
 .AMD_RYZEN_5{
