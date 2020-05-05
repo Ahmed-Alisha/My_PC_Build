@@ -15,9 +15,9 @@ body{
     ;
     grid-gap:3px;
     grid-template-rows: 
-    1fr
-    1fr
-    1fr
+    740px
+    740px
+    740px
     740px
     740px
     740px
@@ -52,8 +52,7 @@ body{
     
 }
 .intro .cart1{
-    width: 45
-    ;
+    width: 2%;
 }
 
 .GAMING_PC{
@@ -76,7 +75,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    padding-top: 120;
+   
     
     
 }
@@ -96,7 +95,7 @@ h1 {
     grid-area:AMD_RYZEN_5;
 }
 .AMD_RYZEN_5 .img4{
-    width: 763;
+    width:  25%;
 }
 
 .NVIDIA{
@@ -104,7 +103,7 @@ h1 {
     grid-area:NVIDIA;
 }
 .NVIDIA .img5{
-    width: 897;
+    width:  25%;
 }
 
 .MSI_B450{
@@ -112,7 +111,7 @@ h1 {
     grid-area:MSI_B450;
 }
 .MSI_B450 .img6{
-    width: 874;
+    width:  25%;
 }
 
 .NVMe_M2{
@@ -120,7 +119,7 @@ h1 {
     grid-area:NVMe_M2;
 }
 .NVMe_M2 .img7{
-    width: 1035;
+    width:  25%;
 }
 
 .CORSAIR_VENGEANCE{
@@ -128,7 +127,7 @@ h1 {
     grid-area:CORSAIR_VENGEANCE;
 }
 .CORSAIR_VENGEANCE .img8{
-    width: 681;
+    width:  25%;
 }
 
 .CORSAIR_VS550{
@@ -136,7 +135,7 @@ h1 {
     grid-area:CORSAIR_VS550;
 }
 .CORSAIR_VS550 .img9{
-    width: 713;
+    width: 25%;
 }
 
 .LOGO{
@@ -147,7 +146,7 @@ h1 {
     justify-content: space-evenly;
 }
 .LOGO .logo{
-    width: 1900;
+    width: 100%;
 }
 
 
